@@ -81,5 +81,5 @@ void Board::print() {
 void Board::printOver() {
 	print();
 	usleep(m_delay);
-	std::printf("\x1b[%dF",m_maxy*2);
+	std::printf("\x1b[%dA",m_maxy*2);
 }
