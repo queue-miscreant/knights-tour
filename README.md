@@ -1,4 +1,5 @@
-Simple naive Knight's tour with backtracking
+Simple animated naive Knight's tour with backtracking.
+Each movement of the knight is drawn to the terminal.
 
 `./tour w h x y [ms_delay]`
 
